@@ -129,6 +129,30 @@ ECE_264_Program_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/build
 .PHONY : ECE_264_Program_2/fast
 
+dum.o: dum.cpp.o
+.PHONY : dum.o
+
+# target to build an object file
+dum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/dum.cpp.o
+.PHONY : dum.cpp.o
+
+dum.i: dum.cpp.i
+.PHONY : dum.i
+
+# target to preprocess a source file
+dum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/dum.cpp.i
+.PHONY : dum.cpp.i
+
+dum.s: dum.cpp.s
+.PHONY : dum.s
+
+# target to generate assembly for a file
+dum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/dum.cpp.s
+.PHONY : dum.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+radix.o: radix.cpp.o
+.PHONY : radix.o
+
+# target to build an object file
+radix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/radix.cpp.o
+.PHONY : radix.cpp.o
+
+radix.i: radix.cpp.i
+.PHONY : radix.i
+
+# target to preprocess a source file
+radix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/radix.cpp.i
+.PHONY : radix.cpp.i
+
+radix.s: radix.cpp.s
+.PHONY : radix.s
+
+# target to generate assembly for a file
+radix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/radix.cpp.s
+.PHONY : radix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ECE_264_Program_2"
+	@echo "... dum.o"
+	@echo "... dum.i"
+	@echo "... dum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... radix.o"
+	@echo "... radix.i"
+	@echo "... radix.s"
 .PHONY : help
 
 

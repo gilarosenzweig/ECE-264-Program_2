@@ -81,12 +81,12 @@ clean: CMakeFiles/ECE_264_Program_2.dir/clean
 CMakeFiles/ECE_264_Program_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ECE_264_Program_2.dir/build.make CMakeFiles/ECE_264_Program_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ECE_264_Program_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target ECE_264_Program_2"
 .PHONY : CMakeFiles/ECE_264_Program_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ECE_264_Program_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ECE_264_Program_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ECE_264_Program_2.dir/rule

@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/dum.cpp">
+			<Option target="ECE_264_Program_2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/main.cpp">
+			<Option target="ECE_264_Program_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/radix.cpp">
 			<Option target="ECE_264_Program_2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/CMakeLists.txt">
