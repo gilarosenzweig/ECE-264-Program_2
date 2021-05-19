@@ -1,4 +1,0 @@
-C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/GRosenzweig/CLionProjects/ECE-264-Program_2/cmake-build-debug
